@@ -11,3 +11,88 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.list-wrapper {
+  width: 75vw;
+  margin: auto;
+}
+
+.todo-item-container {
+  width: 75vw;
+  background: #fff;
+  border-radius: 8px;
+  margin-top: 8px;
+  padding: 16px;
+  position: relative;
+  box-shadow: 0 4px 8px grey;
+  display: flex;
+  
+}
+
+.todo-item {
+  display: flex;
+  gap: 20px;
+}
+
+.active{
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+.button-container {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+}
+
+button {
+  font-size: 16px;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+}
+
+.completed-btn:hover {
+  display: inline-block;
+  background-color: #228fee;
+}
+
+.remove-button {
+  display: inline-block;
+  background-color: #ee2222;
+  margin-left: 8px;
+}
+
+
+.todo-form {
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 4px 8px grey;
+  width: 100%;
+}
+
+.todo-input {
+  font-size: 16px;
+  padding: 8px;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  width: 60%;
+}
+
+.todo-button {
+  font-size: 16px;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  margin-left: 8px;
+  width: 20%;
+  background-color: #22ee22;
+}
